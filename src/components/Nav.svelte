@@ -63,10 +63,10 @@
 	<ul>
 		<li class="logo">
 			<img src="./logo.png" alt="">
-			<a href='.'>STORM THE FRONT | COMMUNITY</a>
+			<a href='.'>STORM THE FRONT</a>
 		</li>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>Главная</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>О нас</a></li>
 		<li><a rel=prefetch class='{segment === "event" ? "selected" : ""}' href='event'>Мероприятия</a></li>
+		<li><a rel=prefetch class='{segment === "about" ? "selected" : ""}' href='about'>О нас</a></li>
 	</ul>
 </nav>
