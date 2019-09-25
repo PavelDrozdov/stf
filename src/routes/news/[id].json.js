@@ -1,11 +1,13 @@
 import fs from 'fs';
 import path from 'path';
-const mainPath = path.join(__dirname, '../../../data/news');
+import {markdown}  from 'markdown';
+
+import {config} from '../../config';
 
 export async function get(req, res, next) {
 	const { id } = req.params;
 
-	fs.readFile(path.join(mainPath, `${id}.json`), "utf8", function(error, data) {
+	fs.readFile(path.join(config.path.news, `${id}${config.fileExstention}`), config.charset, function(error, filedata) {
 		if(error) {
 			res.writeHead(404, {'Content-Type': 'application/json'});
 			res.end(JSON.stringify({message: `Not found`}));
@@ -13,7 +15,12 @@ export async function get(req, res, next) {
 			res.writeHead(200, {
 				'Content-Type': 'application/json'
 			});
-			const news = Object.assign({}, {id}, JSON.parse(data, "utf8"));
+			let params = JSON.parse(filedata.split(config.separator)[0]);
+
+			console.log(markdown.toHTML(filedata.split(config.separator)));
+			const news = Object.assign({}, {id}, params, {
+				html: markdown.toHTML(filedata.split(config.separator)[1])
+			});
 			res.end(JSON.stringify(news));
 		}
 	});

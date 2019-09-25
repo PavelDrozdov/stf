@@ -25,5 +25,5 @@
 <h1>{event.title}</h1>
 
 <div class='content'>
-	{event.description}
+	{@html event.html}
 </div>
