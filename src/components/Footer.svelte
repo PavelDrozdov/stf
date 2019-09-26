@@ -36,7 +36,6 @@ footer {
     color: #333;
     text-decoration: underline;
 }
-
 </style>
 
 <footer>
@@ -45,5 +44,6 @@ footer {
         <li><a href="https://vk.com/storm_the_front">VK</a></li>
         <li><a href="https://www.facebook.com/groups/storm.the.front/">facebook</a></li>
         <li><a href="https://www.youtube.com/channel/UCd033jSptvEiG2IJm5aHTMA">youtube</a></li>
+        <!-- <li><a href="https://www.youtube.com/channel/UCd033jSptvEiG2IJm5aHTMA">instagram</a></li> -->
     </ul>
 </footer>
