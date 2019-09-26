@@ -9,7 +9,9 @@
 </script>
 
 <script>
-	export let news; 
+	import Card from '../components/Card.svelte';
+	export let news;
+
 </script>
 
 <style>
@@ -21,8 +23,16 @@ h1 {
 	font-weight: 700;
 	margin: 0 0 0.5em 0;
 }
+.stf-news-cards-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0.5em;
+}
+
 @media (min-width: 480px) {
 	h1 {
+
 		font-size: 4em;
 	}
 }
@@ -34,9 +44,8 @@ h1 {
 
 <h1>Great success!</h1>	
 
-
-<ul>
+<div class="stf-news-cards-wrapper">
 	{#each news as item}
-		<li><a rel='prefetch' href='news/{item.id}'>{item.title}</a></li>
+		<Card item={item}/>
 	{/each}
-</ul>
+</div>
