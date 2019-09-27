@@ -1,10 +1,14 @@
 import path from 'path';
 
 export const config = {
-    path: {
-        news: path.join(__dirname, '../../../data/news'),
+    news: {
+        exstention: '.md',
+        path: path.join(__dirname, '../../../data/news'),
     },
-    fileExstention: '.md',
+    event: {
+        exstention: '.json',
+        path: path.join(__dirname, '../../../data/events'),
+    },
     charset: 'utf8',
     separator: '$[===]',
 }

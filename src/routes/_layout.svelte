@@ -13,12 +13,7 @@
 	overflow: scroll;
 }
 main {
-	margin: auto;
-	max-width: 56em;
-    padding: 2em;
-	padding-bottom: 90px;
-	margin: 0 auto;
-	box-sizing: border-box;
+	margin: 0;
 }
 </style>
 

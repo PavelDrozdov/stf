@@ -36,6 +36,15 @@ code {
 	border-radius: 2px;
 }
 
+.stf-article {
+	margin: auto;
+	max-width: 56em;
+    padding: 2em;
+	padding-bottom: 90px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
 @media (min-width: 400px) {
 	body {
 		font-size: 16px;

@@ -42,10 +42,12 @@ h1 {
 	<title>Главная</title>
 </svelte:head>
 
-<h1>Great success!</h1>	
+<div class="stf-article">
+	<h1>Новости</h1>	
 
-<div class="stf-news-cards-wrapper">
-	{#each news as item}
-		<Card item={item}/>
-	{/each}
+	<div class="stf-news-cards-wrapper">
+		{#each news as item}
+			<Card href={'news/'} item={item}/>
+		{/each}
+	</div>
 </div>

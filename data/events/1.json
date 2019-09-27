@@ -1,0 +1,36 @@
+{
+    "title": "Storm The Front Meetup #1",
+    "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
+    "pic": "./meetup_background.jpg",
+    "date":"27/06/2018",
+
+    "schedule": {
+        "blocks": [
+            {   
+                "type": "SPEECH",
+                "timeStart":"14:00",
+                "timeEnd": "14:30",
+                "speaker": "Pavel Drazdou",
+                "pic": "./news/1.jpg",
+                "title": "Доступность в веб",
+                "description": "Как писать доступные интерфейсы, как их тестировать и почему сотка в Lighthouse не значит что вы молодец"
+            },
+            {   
+                "type": "PAUSE",
+                "timeStart":"14:30",
+                "timeEnd": "14:40",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {   
+                "type": "SPEECH",
+                "timeStart":"14:40",
+                "timeEnd": "15:10",
+                "pic": "./news/1.jpg",
+                "speaker": "Петя Васечкин",
+                "title": "Типизация",
+                "description": "Поговорим про типизацию, TypeScript VS Flow, как внедрять типизацию с нуля и в уже стартовавший проект"
+            }
+        ]
+    }
+}

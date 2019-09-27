@@ -2,23 +2,25 @@ import fs from 'fs';
 import path from 'path';
 import {config} from '../../config';
 
-const mainPath = path.join(__dirname, '../../../data/events');
-
 function loadNews() {
-    return new Promise ((resolve) => {
+    return new Promise ((resolve, reject) => {
         let data = [];
-        fs.readdir(config.path.news, function(err, items) {
-            for (var i=0; i < items.length; i++) {
-                let filedata = fs.readFileSync(path.join(config.path.news, items[i]), config.charset);
-                let params = filedata.split(config.separator)[0];
+        fs.readdir(config.news.path, function(error, items) {
+            if(error) {
+                reject(error);
+            } else {
+                for (var i=0; i < items.length; i++) {
+                    let filedata = fs.readFileSync(path.join(config.news.path, items[i]), config.charset);
+                    let params = filedata.split(config.separator)[0];
 
-                data.push(Object.assign(
-                    {},
-                    JSON.parse(params, config.charset),
-                    {id: items[i].replace(config.fileExstention, '')},
-                ));
+                    data.push(Object.assign(
+                        {},
+                        JSON.parse(params, config.charset),
+                        {id: items[i].replace(config.news.exstention, '')},
+                    ));
+                }
+                resolve(JSON.stringify(data));
             }
-            resolve(JSON.stringify(data));
         });
     })
 }

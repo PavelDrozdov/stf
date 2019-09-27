@@ -1,5 +1,6 @@
 <script>
-    export let item;
+	export let item;
+	export let href;
     	
 	function backgroundimg(url){
 		return `background-image: url(${url})`
@@ -21,11 +22,18 @@
 
 .stf-news-card__info {
 	height:150px;
-	padding: 0.5em;
+	
 	box-sizing: border-box;
-	/* background: #fff; */
+	background: #fff;
 	background: linear-gradient(to bottom, rgba(255,255,255,0.9) 5%, #fff 95%)
 }
+
+.stf-news-card__text-area {
+	height: 100px;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+
 .stf-news-card__active-area {
 	height: 50px;
 	display: flex;
@@ -40,7 +48,7 @@
 	margin-left: 10px;
 	padding: 5px 15px;
 	box-sizing: border-box;
-	transition: box-shadow 1s;
+	transition: box-shadow 0.5s;
 }
 
 .stf-news-card__active-area a:hover {
@@ -50,10 +58,12 @@
 
 <div class="stf-news-card" style={backgroundimg(item.pic)}>
     <div class="stf-news-card__info">
-        <h2>{item.title}</h2>	
-        <p>{item.description}</p>
+		<div class="stf-news-card__text-area">
+			<h2>{item.title} ({item.date})</h2>	
+			<p>{item.description}</p>
+		</div>
         <div class="stf-news-card__active-area">
-            <a rel='prefetch' href='news/{item.id}'>подробнее...</a>
+            <a rel='prefetch' href='{href}{item.id}'>подробнее...</a>
         </div>
     </div>
 </div>

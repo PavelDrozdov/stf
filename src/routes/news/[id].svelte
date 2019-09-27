@@ -1,7 +1,5 @@
 <script context="module">
 	export async function preload({ params, query }) {
-		// the `slug` parameter is available because
-		// this file is called [slug].svelte
 		const res = await this.fetch(`news/${params.id}.json`);
 		const data = await res.json();
 
@@ -21,9 +19,10 @@
 <svelte:head>
 	<title>{event.title}</title>
 </svelte:head>
+<div class="stf-article">
+	<h1>{event.title}</h1>
 
-<h1>{event.title}</h1>
-
-<div class='content'>
-	{@html event.html}
+	<div class='content'>
+		{@html event.html}
+	</div>
 </div>

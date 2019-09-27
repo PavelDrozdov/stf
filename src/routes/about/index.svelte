@@ -84,29 +84,30 @@
 	line-height: 18px;
  }
 </style>
+<div class="stf-article">
+	<h2>О нашем сообществе</h2>
+	<p>
+		Здесь вы сможете найти последние новости из мира Front-End,
+		поделиться своими идеями, быть в курсе ближайших ивентов,
+		принимать активное участие в их организации, прокачать свои скилы,
+		развить навыки презентации и выступления на публике. Если у вас есть
+		тема, которая достойна внимания – приходите с ней к нам. Мы поможем
+		вам реализовать ваши смелые профессиональные идеи.
+	</p>
+	<br/>
 
-<h2>О нашем сообществе</h2>
-<p>
-	Здесь вы сможете найти последние новости из мира Front-End,
-	поделиться своими идеями, быть в курсе ближайших ивентов,
-	принимать активное участие в их организации, прокачать свои скилы,
-	развить навыки презентации и выступления на публике. Если у вас есть
-	тема, которая достойна внимания – приходите с ней к нам. Мы поможем
-	вам реализовать ваши смелые профессиональные идеи.
-</p>
-<br/>
-
-<h2>Команда организаторов</h2>
-<div class='stf-org-members'>
-	{#each orgs as org}
-		<div class="stf-org-member-card">
-			<div class="stf-org-member-card__image">
-				<img src="{org.pic}" alt="">
+	<h2>Команда организаторов</h2>
+	<div class='stf-org-members'>
+		{#each orgs as org}
+			<div class="stf-org-member-card">
+				<div class="stf-org-member-card__image">
+					<img src="{org.pic}" alt="">
+				</div>
+				<div class="stf-org-member-card__info">
+					<h3>{org.name}</h3>
+					<span class="stf-org-member-card__job-info">{org.company}, {org.jobTitle}</span>
+				</div>
 			</div>
-			<div class="stf-org-member-card__info">
-				<h3>{org.name}</h3>
-				<span class="stf-org-member-card__job-info">{org.company}, {org.jobTitle}</span>
-			</div>
-		</div>
-	{/each}
+		{/each}
+	</div>
 </div>
