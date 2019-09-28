@@ -1,0 +1,105 @@
+{
+    "title": "Storm The Front Meetup #5",
+    "type": "MEETUP",
+    "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
+    "pic": "./meetup_background.jpg",
+    "date":"13/04/2019",
+    "place": "арт-пространство КОВЧЕГ, проспект Победы, 2А, Гомель",
+
+    "schedule": {
+        "blocks": [
+            {
+                "type": "REGiSTRATION",
+                "timeStart":"18:50",
+                "timeEnd": "19:00",
+                "title": "Регистрация",
+                "description": "регистрация участников"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"19:00",
+                "timeEnd": "19:30",
+                "speaker": "Ihar Nestsiarenia",
+                "pic": "./people/19.jpg",
+                "title": "Нейронные сети на javascript, почему бы и нет?",
+                "description": "Нейронные сети кажутся чем-то сложным и непонятным, обычно требующим больших вычислительных мощностей и написано всё на c++ и python. Что если вы хотите применить нейронные сети прямо в браузере и знаете только JS? Краткий ответ, да, вы можете это сделать, а подробнее разберём на митапе.",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"19:30",
+                "timeEnd": "19:35",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"19:35",
+                "timeEnd": "20:05",
+                "speaker": "Maryia Krauchanka",
+                "pic": "./people/7.jpg",
+                "title": "Не для любителей copy-paste. А также еще один способ автоматизации неизбежного copy-paste в работе.",
+                "description": "Ctrl+C / Ctrl+V - незаменимые сочетания клавиш для любого программиста. Давайте поговорим о причинах, видах, обратной стороне медали и антипаттернах, которые порождает copy-paste и ответим на вопрос: Существует ли зависимость между хорошим программистом и количеством скопированного кода? Разберем положительные аспекты и в завершении презентации мы откроем для себя еще один способ автоматизации написания кода",
+                "jobTitle": "EPAM Systems, Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"20:05",
+                "timeEnd": "20:10",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"20:15",
+                "timeEnd": "20:45",
+                "speaker": "Anton Razgulyaev",
+                "pic": "./people/9.jpg",
+                "title": "Why Redux sucks?",
+                "description": "We all use Redux in our projects, but is there any other beautiful and simple way to do the same things with a different approach? That is the question that we will try to answer during my presentation.",
+                "jobTitle": "crypto.ai, Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"20:45",
+                "timeEnd": "20:50",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"20:50",
+                "timeEnd": "21:20",
+                "speaker": "Vladimir Rubin",
+                "pic": "./people/17.jpg",
+                "title": "Приключения обезьяны, таракашек и панического монстра",
+                "description": "В этот раз я сделаю вброс про иррациональность людей, расскажу о концепциях работы нашего мозга и о том, как выжить в это тяжелое-тяжелое время и не сойти с ума.",
+                "jobTitle": "StartMatter, CTO"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"21:20",
+                "timeEnd": "21:30",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"21:30",
+                "timeEnd": "22:00",
+                "speaker": "Mikhail Dziarkach",
+                "pic": "./people/2.jpg",
+                "title": "Оптимизации в web",
+                "description": "Возможные пути решения для ускорения загрузки страницы.",
+                "jobTitle": "StartMatter, Software Engineer"
+            },
+            {
+                "type": "AFTERPARTY",
+                "timeStart":"22:00",
+                "timeEnd": "23:59",
+                "title": "Afterparty",
+                "description": "Afterparty"
+            }
+        ]
+    }
+}

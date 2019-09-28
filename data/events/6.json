@@ -1,0 +1,97 @@
+{
+    "title": "Storm The Front Meetup #6",
+    "type": "MEETUP",
+    "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
+    "pic": "./meetup_background.jpg",
+    "date":"13/04/2019",
+    "place": "арт-пространство КОВЧЕГ, проспект Победы, 2А, Гомель",
+
+    "schedule": {
+        "blocks": [
+            {
+                "type": "REGiSTRATION",
+                "timeStart":"17:50",
+                "timeEnd": "18:00",
+                "title": "Регистрация",
+                "description": "регистрация участников"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"18:00",
+                "timeEnd": "18:10",
+                "speaker": "Pavel Drazdou",
+                "pic": "./people/3.jpg",
+                "title": "Keynote",
+                "jobTitle": "Godel Technologies, Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"18:10",
+                "timeEnd": "18:40",
+                "speaker": "Andrei Kasmykou",
+                "pic": "./people/23.jpg",
+                "title": "Введение в веб-компоненты",
+                "description": "We all use Components everywhere and it doesn't depend on how you write your code and what tools you use. You allways try to build your ecosystem from separate pieces. For UI side, ussually, you use different frameworks. Let's discuss how we can write Components in native way, using only JS, HTML and CSS.",
+                "jobTitle": "EPAM, Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"18:40",
+                "timeEnd": "18:55",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"18:55",
+                "timeEnd": "19:25",
+                "speaker": "Aliaksandr Zahorski",
+                "pic": "./people/21.jpg",
+                "title": "Функциональный функционирует",
+                "description": "Автор доклада с помощью React и vanilla JS попробует очаровать вас преимуществами функционального подхода к разработке frontend приложений",
+                "jobTitle": "EPAM, Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"19:25",
+                "timeEnd": "19:55",
+                "title": "Обед",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"19:55",
+                "timeEnd": "20:25",
+                "speaker": "Sergey Korzh",
+                "pic": "./people/22.jpg",
+                "title": "Все, что вы хотели знать про удаленную работу, но стеснялись спросить",
+                "description": "Плюсы и минусы работы удалённо. Выводы после более чем 8 лет работы удалённо. Полезные советы как сделать удалённую работу наиболее эффективной.",
+                "jobTitle": "SystemSeed, Senior Developer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"20:25",
+                "timeEnd": "20:40",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"21:30",
+                "timeEnd": "22:00",
+                "speaker": "Pavel Drazdou",
+                "pic": "./people/3.jpg",
+                "title": "Доступность в веб",
+                "description": "Поговорим о том, что такое доступность, и как сделать ваш интерфейс дружелюбным  для всех",
+                "jobTitle": "Godel Technologies, Software Engineer"
+            },
+            {
+                "type": "AFTERPARTY",
+                "timeStart":"22:00",
+                "timeEnd": "23:59",
+                "title": "Afterparty",
+                "description": "Afterparty"
+            }
+        ]
+    }
+}

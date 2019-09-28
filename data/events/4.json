@@ -1,0 +1,81 @@
+{
+    "title": "Storm The Front Meetup #4",
+    "type": "MEETUP",
+    "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
+    "pic": "./meetup_background.jpg",
+    "date":"07/02/2019",
+    "place": "7 fridays, Ленина 6",
+
+    "schedule": {
+        "blocks": [
+            {
+                "type": "REGiSTRATION",
+                "timeStart":"18:50",
+                "timeEnd": "19:00",
+                "title": "Регистрация",
+                "description": "регистрация участников"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"19:00",
+                "timeEnd": "19:15",
+                "speaker": "Alena Linkevich",
+                "pic": "./people/11.jpg",
+                "title": "Краткий обзор Atomic Design Methodology",
+                "description": "Кто такие CSS методологии и с чем их едят. Краткий обзор Atomic Design Methodology. Плюсы, минусы, как правильно готовить.",
+                "jobTitle": "EPAM Systems, Inc., Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"19:15",
+                "timeEnd": "19:30",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"19:30",
+                "timeEnd": "19:45",
+                "speaker": "Uladzislau Harbachou",
+                "pic": "./people/10.jpg",
+                "title": "Нет времени рефакторить или как сделать разработку лучше с Vue.js",
+                "description": "Немного о Vue.js и почему выбрали его; Обзор Vue.js( Компоненты, директивы ) и варианты использования; Как внедрить в уже существующий проект?; Vue.js в MPA; Заключение",
+                "jobTitle": "Epam, Senior Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"13:55",
+                "timeEnd": "14:40",
+                "speaker": "Viktoryia Makaranka",
+                "pic": "./people/12.jpg",
+                "title": "Vue 3.0 — новые возможности",
+                "description": "- Улучшенная версия Vue 2.x; Изменения High-level API; Proxy-based observer; Добавление экспериментальных Hooks API; Поддержка Time Slicing; Изменения поддержки браузеров; Заключение",
+                "jobTitle": "EPAM, Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"20:00",
+                "timeEnd": "20:15",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"20:15",
+                "timeEnd": "20:30",
+                "speaker": "Pavel Drazdou",
+                "pic": "./people/3.jpg",
+                "title": "Тебе стоит прийти на митап, даже если темы отстой",
+                "description": "Последнее время внимание с Hard skills переключилось на Soft Skills, на одно техническое интервью приходится два на Soft Skills. Если кодить все знают как научиться, а вот что делать с Soft Skills вопрос открыт и актуален. Как тебе в этом поможет сообщество и почему митап это не только доклады.",
+                "jobTitle": "EPAM, Software Engineer"
+            },
+            {
+                "type": "AFTERPARTY",
+                "timeStart":"20:30",
+                "timeEnd": "23:00",
+                "title": "Afterparty",
+                "description": "Afterparty"
+            }
+        ]
+    }
+}

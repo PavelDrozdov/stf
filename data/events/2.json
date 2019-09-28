@@ -1,0 +1,90 @@
+{
+    "title": "Storm The Front Meetup #2",
+    "type": "MEETUP",
+    "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
+    "pic": "./meetup_background.jpg",
+    "date":"29/09/2018",
+    "place": "Рест-клуб \"Браво\", Речицкая 1A",
+
+    "schedule": {
+        "blocks": [
+            {
+                "type": "REGiSTRATION",
+                "timeStart":"12:40",
+                "timeEnd": "13:00",
+                "title": "Регистрация",
+                "description": "регистрация участников"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"13:00",
+                "timeEnd": "13:10",
+                "speaker": "Yury Alilueu",
+                "pic": "./people/24.jpg",
+                "title": "Keynote",
+                "jobTitle": "Lead Software Engineer, EPAM"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"13:10",
+                "timeEnd": "13:55",
+                "speaker": "Aliaksandr Klimau, Daniil Gorbunov",
+                "pic": "./people/14.jpg",
+                "title": "Типизируя React или как перестать бояться и полюбить статическую типизацию",
+                "description": "Что вы знаете о типах в JavaScript? Какие решения для типизации JS существуют? Давайте рассмотрим две самые популярные технологии - TypeScript и Flow - от двух компаний-гигантов Microsoft и Facebook. Полноценный язык программирования может оказаться хорошей идеей, но Flow может предложить супер динамическую полноценную систему типов. Давайте послушаем нескучные истории о разработке типизированных React-приложений и выберем вместе.",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"13:55",
+                "timeEnd": "14:40",
+                "speaker": "Aliaksandr Khainak",
+                "pic": "./people/13.jpg",
+                "title": "The Twelve-Factor App",
+                "description": "Методология двенадцати факторов может значительно упростить жизнь или уменьшить затраты времени при разработке переносимых и масштабируемых веб-приложений, разворачиваемых в облачных платформах",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"14:40",
+                "timeEnd": "15:15",
+                "title": "перерыв",
+                "description": "Короткий перерыв на кофе"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"15:15",
+                "timeEnd": "16:00",
+                "speaker": "Aliaksei Lyzo",
+                "pic": "./people/18.jpg",
+                "title": "Куда катится JavaScript?",
+                "description": "Про доклад: 1. Общее направление развития языка. 2. Далекие планы (Stage 1 – do-expressions, pipeline-operator etc…) 3. Изменения, до которых мы должны дожить (Stage 2 – throw-expressions, numeric-separator etc…) 4. Уже вот-вот (Stage 3 – dynamic import, bigint, etc…)",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"16:00",
+                "timeEnd": "16:45",
+                "speaker": "Vladimir Rubin",
+                "pic": "./people/17.jpg",
+                "title": "Куда катится мир или почему я дно?",
+                "description": "Мой разговор будет о проблемах, с которыми сталкивается каждый в IT-индустрии.Как вы себя чувствуете в мире, где все изменяется быстрее, чем вы успеваете отреагировать? Спрашиваете себя, что делать со своей жизнью дальше? Сожалеете ли вы о каком-то вашем решении в прошлом, которое кардинально поменяло бы вашу жизнь сейчас? Я расскажу вам о том, как сохранить свой мозг в эпоху хайпа. Мы обсудим инструменты и идеи поддержания здорового рассудка в эпоху перемен.",
+                "jobTitle": "StartMatter, CTO"
+            },
+            {
+                "type": "QUIZ",
+                "timeStart":"16:45",
+                "timeEnd": "17:15",
+                "title": "Marshmallow Challenge",
+                "description": "Marshmallow Challenge"
+            },
+            {
+                "type": "AFTERPARTY",
+                "timeStart":"17:15",
+                "timeEnd": "23:00",
+                "title": "Afterparty",
+                "description": "Afterparty"
+            }
+        ]
+    }
+}

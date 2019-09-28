@@ -1,0 +1,83 @@
+{
+    "title": "Storm The Front Meetup #3",
+    "type": "MEETUP",
+    "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
+    "pic": "./meetup_background.jpg",
+    "date":"08/12/2018",
+    "place": "Рест-клуб \"Браво\", Речицкая 1A",
+
+    "schedule": {
+        "blocks": [
+            {
+                "type": "REGiSTRATION",
+                "timeStart":"14:40",
+                "timeEnd": "15:00",
+                "title": "Регистрация",
+                "description": "регистрация участников"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"15:00",
+                "timeEnd": "15:10",
+                "speaker": "Yury Alilueu",
+                "pic": "./people/24.jpg",
+                "title": "Keynote",
+                "jobTitle": "Lead Software Engineer, EPAM"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"15:10",
+                "timeEnd": "15:55",
+                "speaker": "Shukhratbek Mamadaliev",
+                "pic": "./people/4.jpg",
+                "title": "Serverless",
+                "jobTitle": "Senior Software Engineer, EPAM",
+                "description": "Про доклад: - Что такое Serverless?; - Примеры использования; - Платформы: AWS Lambda и Azure Functions; Планирование и создание приложений; Шаги к развертыванию"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"15:55",
+                "timeEnd": "16:40",
+                "speaker": "Dzmitry Bek",
+                "pic": "./people/6.jpg",
+                "title": "Как хорошо писать на Angular уже завтра",
+                "jobTitle": "Software Engineer, EPAM",
+                "description": "В эти пол часа мы поговорим с вами о практиках, которые помогут вам в процессе разработки приложений на Angular. Я поделюсь своим опытом и советами, как эффективнее организовать код приложения. Расскажу про полезными трюки и подсказки, покажу как обойти проблемные места и не совершать частых ошибок. Начните писать на Angular более эффективные, расширяемые и поддерживаемые решения."
+            },
+            {
+                "type": "PAUSE",
+                "timeStart":"16:40",
+                "timeEnd": "17:10",
+                "title": "перерыв",
+                "description": "Кофе-брейк"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"17:10",
+                "timeEnd": "17:55",
+                "speaker": "Mikita Isakau",
+                "pic": "./people/15.jpg",
+                "title": "Реактивный стейт-менеджмент в Angular приложениях с NgRX",
+                "jobTitle": "Software Engineer, EPAM",
+                "description": "В этом докладе я расскажу о своем опыте использования стейт-менеджмента в Angular 2+ приложениях с помощью библиотеки NgRX. Для начала я расскажу, для чего это нужно использовать этот подход, какие основные проблемы могут встретиться до его использования, о его плюсах и минусах."
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"17:55",
+                "timeEnd": "18:40",
+                "speaker": "Vladimir Rubin",
+                "pic": "./people/17.jpg",
+                "title": "Построение карьеры в IT",
+                "jobTitle": "StartMatter, CTO",
+                "description": "В этот раз мы поговорим о критериях успеха в IT сфере. Я расскажу об основных этапах карьеры и о тех лайфхаках, которые помогают продвигаться по каждому из них. Также я расскажу о тех ошибках, которые совершил я, и о том, как они повлияли на мою карьеру. И в конце концов мы решим для себя “А нужна ли нам эта карьера?” и постараемся пробить дно..."
+            },
+            {
+                "type": "AFTERPARTY",
+                "timeStart":"18:40",
+                "timeEnd": "23:00",
+                "title": "Afterparty",
+                "description": "Afterparty"
+            }
+        ]
+    }
+}

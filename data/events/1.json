@@ -1,35 +1,84 @@
 {
     "title": "Storm The Front Meetup #1",
+    "type": "MEETUP",
     "description": "Проводим первый митап по фронтенду, на мероприятии вас ждут интересные доклады, про доступность и про типизацию, хорошие люди и afterparty.",
     "pic": "./meetup_background.jpg",
-    "date":"27/06/2018",
+    "date":"09/06/2018",
+    "place": "Рест-клуб \"Браво\", Речицкая 1A",
+    "URL": "https://events.epam.com/events/gomel-front-end-meetup-1",
 
     "schedule": {
         "blocks": [
-            {   
-                "type": "SPEECH",
-                "timeStart":"14:00",
-                "timeEnd": "14:30",
-                "speaker": "Pavel Drazdou",
-                "pic": "./news/1.jpg",
-                "title": "Доступность в веб",
-                "description": "Как писать доступные интерфейсы, как их тестировать и почему сотка в Lighthouse не значит что вы молодец"
+            {
+                "type": "REGiSTRATION",
+                "timeStart":"12:00",
+                "timeEnd": "12:15",
+                "title": "Регистрация",
+                "description": "регистрация участников"
             },
-            {   
+            {
+                "type": "SPEECH",
+                "timeStart":"12:15",
+                "timeEnd": "13:00",
+                "speaker": "Shukhratbek Mamadaliev",
+                "pic": "./people/4.jpg",
+                "title": "Why do many companies use Node.js",
+                "description": "Agenda: <br>- What is Node.js? Why to use it? Where to use it? What companies use it?",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"13:00",
+                "timeEnd": "13:45",
+                "speaker": "Mikhail Hatsilau",
+                "pic": "./people/1.jpg",
+                "title": "Handling side effects in Redux",
+                "description": "Many of us use redux to build React applications. But everyone faces with the problem of handling side effects when just starting with redux. For example, ajax calls. I would like to share my experience and tell about tools we have to build actions which produce side affects and are not meant to update redux store.",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"13:45",
+                "timeEnd": "14:30",
+                "speaker": "Andrei Starovoitov",
+                "pic": "./people/16.jpg",
+                "title": "Fantastic species of CMS through frontend developer eyes",
+                "description": "How many CMS are there? What can they do? And how humble Front-End developer can safely coexist with them? We are going to meet amazing creatures from classic Content Management Systems and Content Management Frameworks to Static Site Generators, CMS with Google Sheets as REST API and frameworks for transformation static HTML into reactive web-apps without backend.",
+                "jobTitle": "IBA, Software Engineer"
+            },
+            {
                 "type": "PAUSE",
                 "timeStart":"14:30",
-                "timeEnd": "14:40",
+                "timeEnd": "15:00",
                 "title": "перерыв",
                 "description": "Короткий перерыв на кофе"
             },
-            {   
+            {
                 "type": "SPEECH",
-                "timeStart":"14:40",
-                "timeEnd": "15:10",
-                "pic": "./news/1.jpg",
-                "speaker": "Петя Васечкин",
-                "title": "Типизация",
-                "description": "Поговорим про типизацию, TypeScript VS Flow, как внедрять типизацию с нуля и в уже стартовавший проект"
+                "timeStart":"15:00",
+                "timeEnd": "15:45",
+                "speaker": "Yaraslau Byshyk",
+                "pic": "./people/8.jpg",
+                "title": "Current state of WebAssembly",
+                "description": "Agenda: Brief history; WASM use cases; WASM in action.",
+                "jobTitle": "EPAM, Senior Software Engineer"
+            },
+            {
+                "type": "SPEECH",
+                "timeStart":"15:45",
+                "timeEnd": "16:30",
+                "speaker": "Ales Tsvil",
+                "pic": "./people/5.jpg",
+                "title": "Kotlin is Here Again!",
+                "description": "I want to tell you about one of the modern and trending languages of today - Kotlin, which among other cool features, has JS compilation target. So if it is possible to use Kotlin today - definitely yes! And I'll show you why =)",
+                "jobTitle": "Senior Software Engineer"
+            },
+            {
+                "type": "AFTERPARTY",
+                "timeStart":"19:00",
+                "timeEnd": "23:59",
+                "title": "Afterparty",
+                "description": "Afterparty"
             }
         ]
     }
